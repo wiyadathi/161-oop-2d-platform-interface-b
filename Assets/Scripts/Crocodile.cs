@@ -41,6 +41,7 @@ public class Crocodile : Enemy, IShootable
         Vector2 distance = player.transform.position - transform.position;
         if (distance.magnitude <= attackRange) 
         {
+            animator.SetTrigger("Shoot");
             Shoot();
         }
     }

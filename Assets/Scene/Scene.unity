@@ -1156,8 +1156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  animator: {fileID: 0}
-  rb: {fileID: 0}
+  animator: {fileID: 1798490024}
+  rb: {fileID: 1798490025}
   damageHit: 0
   player: {fileID: 655134832}
   spawnPoint: {fileID: 455771906}
@@ -2657,6 +2657,16 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 720138362}
   m_SourcePrefab: {fileID: 100100000, guid: c07db661138134f589f46b8510d57c9a, type: 3}
+--- !u!95 &1798490024 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9555892, guid: c07db661138134f589f46b8510d57c9a, type: 3}
+  m_PrefabInstance: {fileID: 1798490023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1798490025 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5023672, guid: c07db661138134f589f46b8510d57c9a, type: 3}
+  m_PrefabInstance: {fileID: 1798490023}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1807209958
 PrefabInstance:
   m_ObjectHideFlags: 0
