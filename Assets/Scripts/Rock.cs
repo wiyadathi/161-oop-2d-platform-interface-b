@@ -8,10 +8,11 @@ public class Rock : Weapon
     Rigidbody2D rb2d;
     Vector2 force;
     
-    // Start is called before the first frame update
     void Start()
     {
-        Damage = 40;
+        rb2d = GetComponent<Rigidbody2D>();
+        Damage = 20;
+        force = new Vector2( GetShootDirection() * 100, 400);
         Move();
     }
 
